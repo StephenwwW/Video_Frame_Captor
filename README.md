@@ -13,8 +13,7 @@ Created by [StephenwwW](https://github.com/StephenwwW).
 ## English Version
 
 ### Screenshot
-
-![Screenshot of Video Frame Captor](images/screenshot.png)
+![Screenshot of Video Frame Captor](https://raw.githubusercontent.com/StephenwwW/Video-Frame-Captor/main/images/screenshot.png)
 
 ### Features
 
@@ -75,8 +74,7 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 ## 繁體中文版
 
 ### 軟體截圖
-
-![影片畫格擷取工具截圖](images/screenshot.png)
+![影片畫格擷取工具截圖](https://raw.githubusercontent.com/StephenwwW/Video-Frame-Captor/main/images/screenshot.png)
 
 ### 功能特性
 
