@@ -6,8 +6,6 @@ A simple GUI tool to batch extract frames from video files (`.mov`, `.mp4`) at s
 
 一個簡單的圖形化工具，可以用來在指定的時間點，批次從影片檔案（`.mov`, `.mp4`）中擷取畫格。使用 Python、PyQt6 和 OpenCV 打造。
 
-Created by [StephenwwW](https://github.com/StephenwwW).
-
 ---
 
 ## English Version
