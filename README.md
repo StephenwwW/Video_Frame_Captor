@@ -67,6 +67,10 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 **3. Get the Output:**
    - After the script finishes, the final `video_frame_extractor.exe` file will be moved to a `Video_Frame_Captor` folder on your Desktop.
 
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 ## 繁體中文版
 
@@ -128,3 +132,7 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 
 **3. 取得成品：**
    - 腳本執行完畢後，最終生成的 `video_frame_extractor.exe` 會被移動到您桌面的 `Video_Frame_Captor` 資料夾內。
+
+### 授權條款
+
+本專案採用 MIT 授權條款 - 詳細資訊請參閱 [LICENSE](LICENSE) 檔案。
