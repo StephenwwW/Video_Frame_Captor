@@ -6,15 +6,13 @@ A simple GUI tool to batch extract frames from video files (`.mov`, `.mp4`) at s
 
 一個簡單的圖形化工具，可以用來在指定的時間點，批次從影片檔案（`.mov`, `.mp4`）中擷取畫格。使用 Python、PyQt6 和 OpenCV 打造。
 
-Created by [StephenwwW](https://github.com/StephenwwW).
-
 ---
 
 ## English Version
 
 ### Screenshot
 
-![Screenshot of Video Frame Captor](images/screenshot.png)
+![Screenshot of Video Frame Captor](https://raw.githubusercontent.com/StephenwwW/Video_Frame_Captor/main/Video_Frame_Captor/images/screenshot.png)
 
 ### Features
 
@@ -25,11 +23,9 @@ Created by [StephenwwW](https://github.com/StephenwwW).
 -   **Smart Output**: Automatically creates an `images` subfolder inside your target folder.
 -   **Standalone Executable**: Includes a batch script to build a single `.exe` file using PyInstaller and UPX.
 
-### Installation & Usage (For Developers)
-
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/StephenwwW/Video-Frame-Captor.git](https://github.com/StephenwwW/Video-Frame-Captor.git)
+    git clone https://github.com/StephenwwW/Video-Frame-Captor.git
     cd Video-Frame-Captor
     ```
 
@@ -58,25 +54,29 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
    - Install PyInstaller: `pip install pyinstaller`
    - **(Optional) Download UPX:** For file compression, download the latest win64 version of UPX from the official GitHub releases page:
      [**UPX Official Releases**](https://github.com/upx/upx/releases)
-   - After downloading, extract the `upx-x.x.x-win64` folder and place it on your desktop. The batch script expects it at `C:\Users\YourUsername\Desktop\upx-x.x.x-win64`. [cite_start]You may need to edit the path inside the `.bat` file. [cite: 1]
+   - After downloading, extract the `upx-x.x.x-win64` folder and place it on your desktop. The batch script expects it at `C:\Users\YourUsername\Desktop\upx-x.x.x-win64`. You may need to edit the path inside the `.bat` file.
 
 **2. Run the Build Script:**
    - Double-click `build_video_frame_extractor.bat`.
-   - [cite_start]You will be prompted to choose a build method: [cite: 2]
+   - You will be prompted to choose a build method:
      1.  **`--onefile --noconsole --upx-dir`**: Standard build with UPX compression. Recommended.
      2.  **`--onefile --noconsole`**: Build without UPX compression. The file will be larger.
      3.  **`--onefile --noconsole --strip --clean --upx-dir`**: Clean build with UPX, removing temporary files before building.
-   - [cite_start]Enter your choice (1, 2, or 3) and press Enter. [cite: 3]
+   - Enter your choice (1, 2, or 3) and press Enter.
 
 **3. Get the Output:**
-   - [cite_start]After the script finishes, the final `video_frame_extractor.exe` file will be moved to a `Video_Frame_Captor` folder on your Desktop. [cite: 4, 5]
+   - After the script finishes, the final `video_frame_extractor.exe` file will be moved to a `Video_Frame_Captor` folder on your Desktop.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/LICENSE) file for details.
 
 ---
 ## 繁體中文版
 
 ### 軟體截圖
 
-![影片畫格擷取工具截圖](images/screenshot.png)
+![影片畫格擷取工具截圖](https://raw.githubusercontent.com/StephenwwW/Video_Frame_Captor/main/Video_Frame_Captor/images/screenshot.png)
 
 ### 功能特性
 
@@ -91,10 +91,10 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 
 1.  **複製專案倉庫：**
     ```bash
-    git clone [https://github.com/StephenwwW/Video-Frame-Captor.git](https://github.com/StephenwwW/Video-Frame-Captor.git)
+    git clone https://github.com/StephenwwW/Video-Frame-Captor.git
     cd Video-Frame-Captor
     ```
-
+    
 2.  **建立虛擬環境（建議）：**
     ```bash
     # Windows
@@ -120,15 +120,19 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
    - 安裝 PyInstaller：`pip install pyinstaller`
    - **(選擇性) 下載 UPX：** 若要壓縮檔案，請至 UPX 官方 GitHub 發布頁面下載最新的 win64 版本：
      [**UPX 官方發布頁**](https://github.com/upx/upx/releases)
-   - [cite_start]下載後，將解壓縮的 `upx-x.x.x-win64` 資料夾放在您的桌面。批次檔預期路徑為 `C:\Users\您的使用者名稱\Desktop\upx-x.x.x-win64`，您也可以自行編輯 `.bat` 檔內的 `UPX` 路徑。 [cite: 1]
+   - 下載後，將解壓縮的 `upx-x.x.x-win64` 資料夾放在您的桌面。批次檔預期路徑為 `C:\Users\您的使用者名稱\Desktop\upx-x.x.x-win64`，您也可以自行編輯 `.bat` 檔內的 `UPX` 路徑。
 
 **2. 執行打包腳本：**
    - 直接雙擊執行 `build_video_frame_extractor.bat`。
-   - [cite_start]腳本會提示您選擇打包方式： [cite: 2]
+   - 腳本會提示您選擇打包方式：
      1.  **`--onefile --noconsole --upx-dir`**：標準打包，使用 UPX 壓縮。推薦此項。
      2.  **`--onefile --noconsole`**：不使用 UPX 壓縮，檔案會比較大。
      3.  **`--onefile --noconsole --strip --clean --upx-dir`**：使用 UPX 清理打包，會在建置前移除暫存檔。
-   - [cite_start]輸入您的選擇 (1, 2, 或 3) 後按下 Enter。 [cite: 3]
+   - 輸入您的選擇 (1, 2, 或 3) 後按下 Enter。
 
 **3. 取得成品：**
-   - [cite_start]腳本執行完畢後，最終生成的 `video_frame_extractor.exe` 會被移動到您桌面的 `Video_Frame_Captor` 資料夾內。 [cite: 4, 5]
+   - 腳本執行完畢後，最終生成的 `video_frame_extractor.exe` 會被移動到您桌面的 `Video_Frame_Captor` 資料夾內。
+
+### 授權條款
+
+本專案採用 MIT 授權條款 - 詳細資訊請參閱 [LICENSE](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/LICENSE)檔案。
