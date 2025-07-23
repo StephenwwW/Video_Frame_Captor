@@ -25,7 +25,7 @@ A simple GUI tool to batch extract frames from video files (`.mov`, `.mp4`) at s
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/StephenwwW/Video-Frame-Captor.git](https://github.com/StephenwwW/Video-Frame-Captor.git)
+    git clone https://github.com/StephenwwW/Video-Frame-Captor.git
     cd Video-Frame-Captor
     ```
 
@@ -87,10 +87,10 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 
 1.  **複製專案倉庫：**
     ```bash
-    git clone [https://github.com/StephenwwW/Video-Frame-Captor.git](https://github.com/StephenwwW/Video-Frame-Captor.git)
+    git clone https://github.com/StephenwwW/Video-Frame-Captor.git
     cd Video-Frame-Captor
     ```
-
+    
 2.  **建立虛擬環境（建議）：**
     ```bash
     # Windows
