@@ -15,6 +15,11 @@ Created by [StephenwwW](https://github.com/StephenwwW).
 ### Screenshot
 ![Screenshot of Video Frame Captor](https://raw.githubusercontent.com/StephenwwW/Video-Frame-Captor/main/images/screenshot.png)
 
+![Screenshot of Video Frame Captor]([https://raw.githubusercontent.com/StephenwwW/Video-Frame-Captor/main/images/screenshot.png](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/images/screenshot.png))
+
+![Screenshot of Video Frame Captor](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/images/screenshot.png)
+
+
 ### Features
 
 -   **User-Friendly GUI**: Simple and intuitive interface with language switching (English/Traditional Chinese).
