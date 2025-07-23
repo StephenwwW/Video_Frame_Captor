@@ -23,8 +23,6 @@ A simple GUI tool to batch extract frames from video files (`.mov`, `.mp4`) at s
 -   **Smart Output**: Automatically creates an `images` subfolder inside your target folder.
 -   **Standalone Executable**: Includes a batch script to build a single `.exe` file using PyInstaller and UPX.
 
-### Installation & Usage (For Developers)
-
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/StephenwwW/Video-Frame-Captor.git](https://github.com/StephenwwW/Video-Frame-Captor.git)
