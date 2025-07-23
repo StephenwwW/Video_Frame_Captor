@@ -135,4 +135,4 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ### 授權條款
 
-本專案採用 MIT 授權條款 - 詳細資訊請參閱 [LICENSE](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/LICENSE) 檔案。
+本專案採用 MIT 授權條款 - 詳細資訊請參閱 [LICENSE](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/LICENSE)檔案。
