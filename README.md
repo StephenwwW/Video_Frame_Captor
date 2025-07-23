@@ -69,7 +69,7 @@ This project includes a `build_video_frame_extractor.bat` script to simplify the
 
 ### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/StephenwwW/Video_Frame_Captor/blob/main/Video_Frame_Captor/LICENSE) file for details.
 
 ---
 ## 繁體中文版
